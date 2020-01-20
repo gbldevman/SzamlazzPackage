@@ -18,12 +18,6 @@
     SZAMLAZZ_USER=
     SZAMLAZZ_PASSWORD=
 ```
-* After the install and setting
-```php
-    SZAMLAZZ_AGENT_KEY=
-    SZAMLAZZ_USER=
-    SZAMLAZZ_PASSWORD=
-```
 * Last steps publishing vendor
 ```php
     php artisan vendor:publish --provider="Gbl\Szamlazz\SzamlazzServiceProvider"

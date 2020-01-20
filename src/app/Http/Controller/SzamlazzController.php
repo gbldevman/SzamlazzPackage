@@ -91,11 +91,11 @@ class SzamlazzController extends Controller
         $tetel->addChild('megnevezes','Elado izé');
         $tetel->addChild('mennyiseg','3.0');
         $tetel->addChild('mennyisegiEgyseg','db');
-        $tetel->addChild('nettoEgysegar','30000');
+        $tetel->addChild('nettoEgysegar','40000');
         $tetel->addChild('afakulcs','27');
-        $tetel->addChild('nettoErtek','30000.0');
-        $tetel->addChild('afaErtek','2700.0');
-        $tetel->addChild('bruttoErtek','32700.0');
+        $tetel->addChild('nettoErtek','120000.0');
+        $tetel->addChild('afaErtek','32400.0');
+        $tetel->addChild('bruttoErtek','152400.0');
         $tetel->addChild('megjegyzes','lorem ipsum');
 
         $xml = $xml->asXML();
