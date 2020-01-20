@@ -17,4 +17,4 @@ _book
 *.mobi
 *.pdf
 /vendor
-
+.git
