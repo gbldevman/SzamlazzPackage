@@ -1,0 +1,28 @@
+{
+    "name": "gbl/szamlazz",
+    "description": "This is a package to szamlazz.hu api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GBL IT GROUP",
+            "email": "contact@gbl.hu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gbl\\Szamlazz\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gbl\\Szamlazz\\SzamlazzServiceProvider"
+            ]
+        }
+    }
+}
