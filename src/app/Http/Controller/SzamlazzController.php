@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use GuzzleHttp\Psr7\Request as GuzzleRequest;
+use Illuminate\Support\Facades\Log;
 use SimpleXMLElement;
 
 class SzamlazzController extends Controller
@@ -119,9 +120,9 @@ class SzamlazzController extends Controller
         $beallitasok->addChild('szamlaLetoltesPld', '1');
         //fejlec
         $fejlec = $xml->addChild('fejlec');
-        $fejlec->addChild('szamlaszam','GBL-2020-2');
-        $fejlec->addChild('keltDatum','2020-01-20');
-        $fejlec->addChild('teljesitesDatum','2020-01-20');
+        $fejlec->addChild('szamlaszam','GBL-2020-5');
+        $fejlec->addChild('keltDatum','2020-01-21');
+        $fejlec->addChild('teljesitesDatum','2020-01-21');
         $fejlec->addChild('tipus','SS');
         //elado
         $elado = $xml->addChild('elado');
@@ -136,6 +137,7 @@ class SzamlazzController extends Controller
         $xml = $xml->asXML();
 
         $responseXml = $this->sendXmlAsFileWithGuzzle($xml, 'szamla_agent_st');
+        Log::info($responseXml);
         dd($responseXml);
 
     }
