@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gbl\\Szamlazz\\SzamlazzServiceProvider"
+                "Gbl\\Szamlazz\\App\\Providers\\SzamlazzServiceProvider"
             ]
         }
     }
