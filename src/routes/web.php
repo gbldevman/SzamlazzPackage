@@ -6,10 +6,10 @@ Route::get('szamlazz', function () {
 
 Route::group(['namespace' => 'Gbl\Szamlazz\App\Http\Controller'], function()
 {
-    Route::get('createinvoice', 'SzamlazzController@createInvoice');
-    Route::get('reverseinvoice', 'SzamlazzController@reverseInvoice');
-    Route::get('registercreditentries', 'SzamlazzController@registerCreditEntries');
-    Route::get('queryinvoicepdf', 'SzamlazzController@queryInvoicePdf');
-    Route::get('queryinvoicexml', 'SzamlazzController@queryIncoiceXml');
-    Route::get('deletingproformainvoice', 'SzamlazzController@deletingProFormaInvoice');
+    Route::get('createinvoice', 'SzamlazzInvoiceController@createInvoice');
+    Route::get('reverseinvoice', 'SzamlazzInvoiceController@reverseInvoice');
+    Route::get('registercreditentries', 'SzamlazzInvoiceController@registerCreditEntries');
+    Route::get('queryinvoicepdf', 'SzamlazzInvoiceController@queryInvoicePdf');
+    Route::get('queryinvoicexml', 'SzamlazzInvoiceController@queryIncoiceXml');
+    Route::get('deletingproformainvoice', 'SzamlazzInvoiceController@deletingProFormaInvoice');
 });

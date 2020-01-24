@@ -12,12 +12,11 @@ class SzamlazzServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
 
         $this->publishes([
-            __DIR__ . '/config/gbl.php' => config_path('gbl.php'),
-        ]
-        );
+            __DIR__ . '/../../config/gbl.php' => config_path('gbl.php'),
+        ]);
     }
 
     /**
@@ -25,16 +24,10 @@ class SzamlazzServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/gbl.php', 'gbl');
+        $this->mergeConfigFrom(__DIR__ . '/../../config/gbl.php', 'gbl');
 
         $this->app->bind(Client::class, function ($app) {
             return new Client();
         });
-
-//        $this->app->singleton(Client::class, function ()
-//        {
-//            return new Client();
-//        }
-//        );
     }
 }

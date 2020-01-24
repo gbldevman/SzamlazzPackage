@@ -1,0 +1,77 @@
+{
+    "beallitasok": {
+        "eszamla": "false",
+        "kulcstartojelszo": "",
+        "szamlaLetoltes": "true",
+        "valaszVerzio": "2"
+    },
+    "fejlec": {
+        "keltDatum": "2020-01-23",
+        "teljesitesDatum": "2020-01-23",
+        "fizetesiHataridoDatum": "2020-02-02",
+        "fizmod": "Átutalás",
+        "penznem": "HUF",
+        "szamlaNyelve": "hu",
+        "megjegyzes": "Számla megjegyzés",
+        "arfolyamBank": "MNB",
+        "arfolyam": "0.0",
+        "rendelesSzam": "",
+        "dijbekeroSzamlaszam": "",
+        "elolegszamla": "false",
+        "vegszamla": "false",
+        "helyesbitoszamla": "false",
+        "helyesbitettSzamlaszam": "",
+        "dijbekero": "false",
+        "szamlaszamElotag": "GBL"
+    },
+    "elado": {
+        "bank": "CIB",
+        "bankszamlaszam": "11111111-22222222-33333333",
+        "emailReplyto": "",
+        "emailTargy": "Számla értesítő",
+        "emailSzoveg": "mail text"
+    },
+    "vevo": {
+        "nev": "Balázs Csaba",
+        "irsz": "2030",
+        "telepules": "Érd",
+        "cim": "Tárnoki út 23.",
+        "email": "buyer@example.com",
+        "sendEmail": "false",
+        "adoszam": "12345678-1-42",
+        "postazasiNev": "Kovács Bt. postázási név",
+        "postazasiIrsz": "2040",
+        "postazasiTelepules": "Budaörs",
+        "postazasiCim": "Szivárvány utca 8.",
+        "telefonszam": "Tel:+3630-555-55-55, Fax:+3623-555-555",
+        "megjegyzes": "A portáról felszólni a 214-es mellékre."
+    },
+    "fuvarlevel": {
+        "uticel": "",
+        "futarSzolgalat": ""
+    },
+    "tetelek": {
+        "tetel": {
+            "megnevezes": "Elado izé",
+            "mennyiseg": "3.0",
+            "mennyisegiEgyseg": "db",
+            "nettoEgysegar": "40000",
+            "afakulcs": "AAM",
+            "nettoErtek": "120000.0",
+            "afaErtek": "0.0",
+            "bruttoErtek": "120000.0",
+            "megjegyzes": "lorem ipsum"
+        },
+        "tetel": {
+            "megnevezes": "Elado izé2",
+            "mennyiseg": "1.0",
+            "mennyisegiEgyseg": "db",
+            "nettoEgysegar": "40000",
+            "afakulcs": "27",
+            "nettoErtek": "40000.0",
+            "afaErtek": "10800.0",
+            "bruttoErtek": "50800.0",
+            "megjegyzes": "lorem ipsum lorem"
+        }
+    }
+}

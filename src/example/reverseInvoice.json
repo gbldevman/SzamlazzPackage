@@ -1,0 +1,21 @@
+{
+    "beallitasok": {
+        "eszamla": "false",
+        "szamlaLetoltes": "true",
+        "szamlaLetoltesPld": "1"
+    },
+    "fejlec": {
+        "szamlaszam": "GBL-2020-31",
+        "keltDatum": "2020-01-23",
+        "teljesitesDatum": "2020-02-02",
+        "tipus": "SS"
+    },
+    "elado": {
+        "emailReplyto": "elado@example.com",
+        "emailTargy": "Email tárgya",
+        "emailSzoveg": "Lorem ipsum"
+    },
+    "vevo": {
+        "email": "buyer@example.com"
+    }
+}

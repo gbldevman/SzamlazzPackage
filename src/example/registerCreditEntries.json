@@ -1,0 +1,11 @@
+{
+    "beallitasok": {
+        "szamlaszam": "GBL-2020-32",
+        "additiv": "false"
+    },
+    "kifizetes": {
+        "datum": "2020-01-23",
+        "jogcim": "készpénz",
+        "osszeg": "10000"
+    }
+}
